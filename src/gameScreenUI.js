@@ -176,7 +176,7 @@ export const generateGrid = function () {
   //gridContainer.innerHTML = "";
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
-      console.log("Hey");
+      //console.log("Hey");
       const cell = document.createElement("div");
       cell.classList.add("user-cell");
       cell.dataset.row = i;
@@ -190,7 +190,7 @@ export const generateGrid = function () {
   //gridContainer.innerHTML = "";
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
-      console.log("Hey");
+      //console.log("Hey");
       const cell = document.createElement("div");
       cell.classList.add("comp-cell");
       cell.dataset.row = i;
@@ -201,7 +201,7 @@ export const generateGrid = function () {
 };
 
 export const userGridShiplacementUI = function (coordinateArray) {
-  console.log(coordinateArray);
+  //console.log(coordinateArray);
   const carrierPlacement = function (coordinateArray) {
     const rows = [];
     const cols = [];

@@ -53,7 +53,7 @@ export function startScreenUI() {
     gameScreenDisplay();
     generateGrid();
     userGridShiplacementUI(user.getCoordinatesArray());
-    console.log("hello before listener");
+    //console.log("hello before listener");
     addListenerstoEnemyGrid(computer, user);
   });
 }

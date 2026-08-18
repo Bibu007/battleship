@@ -1,7 +1,6 @@
 import { markEnemyAttacked, markUserAttacked } from "./markAttacked.js";
 
 export function addListenerstoEnemyGrid(computer, user) {
-  console.log("Listener");
   const enemyGrid = document.querySelector(".computer-grid");
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
@@ -9,12 +8,6 @@ export function addListenerstoEnemyGrid(computer, user) {
         `.comp-cell[data-row="${i}"][data-col="${j}"]`,
       );
       cell.addEventListener("click", (event) => {
-        console.log(
-          `x: ${event.target.dataset.row} y: ${event.target.dataset.col}`,
-        );
-        console.log(
-          computer.getStat(event.target.dataset.row, event.target.dataset.col),
-        );
         if (
           computer.getStat(event.target.dataset.row, event.target.dataset.col)
         ) {
@@ -58,9 +51,7 @@ export function addListenerstoEnemyGrid(computer, user) {
 }
 
 export const opponentAttack = function (x, y, player) {
-  console.log(`xy: ${x} ${y}`);
   let res = player.getStat(x, y);
-  console.log(res);
 
   if (player.getStat(x, y)) {
     opponentAttack(

@@ -1,11 +1,10 @@
-import { Cell } from "./cell.js";
 import { shipLocationGenerator } from "./shipLocationGenerator.js";
 import { displayWinner } from "./displayWinner.js";
 
 export function GameBoard() {
   const board = Array.from({ length: 10 }, () => new Array(10).fill(-1));
   let shipCellCount = 17;
-  console.log(board);
+  //console.log(board);
 
   const placeShip = function (coordinatesArray) {
     for (let i = 0; i < 17; i++) {
@@ -14,15 +13,15 @@ export function GameBoard() {
   };
 
   const coordinatesArray = shipLocationGenerator();
-  console.log(coordinatesArray);
+  //console.log(coordinatesArray);
 
-  console.log(`printBoard before:`);
-  console.log(board);
+  //console.log(`printBoard before:`);
+  //console.log(board);
 
   placeShip(coordinatesArray);
 
-  console.log(`printBoard after:`);
-  console.log(board);
+  //console.log(`printBoard after:`);
+  //console.log(board);
 
   //console.log(`board`);
   //console.log(board[0][1].hasShip());

@@ -1,7 +1,6 @@
 import { startScreenUI } from "./startScreenUI.js";
 
 export const displayWinner = function (player) {
-  console.log("Winnner Winner CHcicken dinner");
   const body = document.querySelector("body");
   const dialog = document.createElement("dialog");
   const text = document.createElement("div");

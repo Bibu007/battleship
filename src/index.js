@@ -6,13 +6,6 @@ import "./styles.css";
 
 startScreenUI();
 
-console.log("Hey, handsome!");
-
-function printhELLO() {
-  console.log("Hello");
-}
-
-printhELLO();
 GameBoard();
 
 shipLocationGenerator();
