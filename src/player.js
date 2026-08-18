@@ -12,5 +12,13 @@ export function Player() {
     return playerType;
   };
 
-  return { setType, getType };
+  const getBoard = function () {
+    return gameBoard.getBoard();
+  };
+
+  const getCoordinatesArray = function () {
+    return gameBoard.getCoordinatesArray();
+  };
+
+  return { setType, getType, getBoard, getCoordinatesArray };
 }

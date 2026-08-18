@@ -71,8 +71,8 @@ h6 {
 /*        End of reset-------*/
 
 body {
-  display: grid;
-  
+  /*display: grid;*/
+
   background-color: #000000;
 }
 
@@ -237,4 +237,96 @@ img.battleship-icon {
     opacity: 0;
     transform: translate(-50%, -50%) scale(2.5) rotate(90deg);
   }
+}
+
+/* --Game Screen -- */
+
+.parent-container {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+.player-turn {
+  display: flex;
+  place-content: center;
+  color: white;
+  font-family: "Press Start 2P";
+  padding: 30px;
+
+  font-size: x-large;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 30px;
+  min-width: 1300px;
+}
+
+.container {
+  display: grid;
+}
+
+.title {
+  color: rgb(105, 222, 248);
+  font-family: "Press Start 2P";
+  font-size: large;
+  text-align: center;
+  padding: 10px;
+}
+
+.user-grid {
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(10, auto);
+  grid-template-columns: repeat(10, auto);
+  border: 1px solid black;
+}
+
+.computer-grid {
+  display: grid;
+  grid-template-rows: repeat(10, auto);
+  grid-template-columns: repeat(10, auto);
+  border: 1px solid black;
+}
+
+.user-grid div {
+  height: 50px;
+  width: 50px;
+  border: 0.5px solid #00ff00;
+}
+
+.computer-grid div {
+  height: 50px;
+  width: 50px;
+  border: 0.5px solid #00ff00;
+}
+
+.enemy {
+  color: red;
+}
+
+.btn-container {
+  display: flex;
+  place-content: center;
+  padding: 30px;
+}
+
+#restart {
+  color: #facc15;
+  background-color: inherit;
+  font-family: "Press Start 2P";
+  border-color: #facc15;
+  font-size: large;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.ship {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
 }

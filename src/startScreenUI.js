@@ -1,3 +1,10 @@
+import {
+  gameScreenDisplay,
+  generateGrid,
+  userGridShiplacementUI,
+} from "./gameScreenUI.js";
+import { Player } from "./player.js";
+
 export function startScreenUI() {
   const battleshipUrl = new URL("./images/battleship.svg", import.meta.url);
   const start = `<div id="battleship">BATTLESHIP</div>
@@ -36,4 +43,13 @@ export function startScreenUI() {
   const body = document.querySelector("body");
 
   body.innerHTML = start;
+
+  const play = document.getElementById("play");
+  play.addEventListener("click", () => {
+    const user = new Player();
+    const computer = new Player();
+    gameScreenDisplay();
+    generateGrid();
+    userGridShiplacementUI(user.getCoordinatesArray());
+  });
 }

@@ -14,12 +14,12 @@ export function GameBoard() {
   };
 
   const coordinatesArray = shipLocationGenerator();
-  console.log(coordinatesArray);
+  //console.log(coordinatesArray);
 
   placeShip(coordinatesArray);
 
-  console.log(`board`);
-  console.log(board[0][1].hasShip());
+  //console.log(`board`);
+  //console.log(board[0][1].hasShip());
 
   const allShipsSunk = function () {};
 
@@ -35,9 +35,18 @@ export function GameBoard() {
     }
   };
 
+  const getBoard = function () {
+    return board;
+  };
+
+  const getCoordinatesArray = function () {
+    return coordinatesArray;
+  };
+
   //placeShip([[1, 0]]);
 
   //console.log(board[1][0].getShip());
 
   //return { placeShip };
+  return { getBoard, getCoordinatesArray };
 }
