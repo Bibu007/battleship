@@ -330,3 +330,53 @@ img.battleship-icon {
   position: absolute;
   z-index: 2;
 }
+
+.green-attacked {
+  background: radial-gradient(
+    circle,
+    #005f00 0%,
+    #00d000 70%,
+    #00ff00 100%
+  ); 
+  z-index: 10;
+  opacity: 70%;
+}
+
+.red-attacked {
+  background: radial-gradient(circle, #5f0000 0%, #d00000 70%, #ff0000 100%);
+  z-index: 10;
+  opacity: 70%;
+}
+
+.hidden-overlay{
+    display: none;
+}
+
+#ui-lock {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+  z-index: 9999;                  /* Sit on top of everything */
+  cursor: not-allowed;            /* Visual cue to the user */
+}
+
+dialog{
+    display: grid;
+    font-size: xx-large;
+    font-family: "Press Start 2P";
+    background-color: #000000;
+    color: #00ff00;
+    padding: 30px;
+    gap: 20px;
+}
+
+dialog button{
+    font-size: large;
+}
+
+.lose{
+    color: red;
+}

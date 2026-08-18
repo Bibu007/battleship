@@ -1,3 +1,4 @@
+import { addListenerstoEnemyGrid } from "./addListenerstoEnemyGrid.js";
 import {
   gameScreenDisplay,
   generateGrid,
@@ -48,8 +49,11 @@ export function startScreenUI() {
   play.addEventListener("click", () => {
     const user = new Player();
     const computer = new Player();
+    computer.setType(1);
     gameScreenDisplay();
     generateGrid();
     userGridShiplacementUI(user.getCoordinatesArray());
+    console.log("hello before listener");
+    addListenerstoEnemyGrid(computer, user);
   });
 }

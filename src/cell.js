@@ -7,7 +7,7 @@ export function Cell() {
   }
 
   function setStatus() {
-    if (token === 0) {
+    if (status === 0) {
       status = 1;
     }
   }

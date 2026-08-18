@@ -20,5 +20,20 @@ export function Player() {
     return gameBoard.getCoordinatesArray();
   };
 
-  return { setType, getType, getBoard, getCoordinatesArray };
+  const recieveAttack = function (x, y, player) {
+    gameBoard.recieveAttack(x, y, player);
+  };
+
+  const getStat = function (x, y) {
+    return gameBoard.getStat(x, y);
+  };
+
+  return {
+    setType,
+    getType,
+    getBoard,
+    getCoordinatesArray,
+    recieveAttack,
+    getStat,
+  };
 }

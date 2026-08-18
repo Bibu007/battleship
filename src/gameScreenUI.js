@@ -178,6 +178,7 @@ export const generateGrid = function () {
     for (let j = 0; j < 10; j++) {
       console.log("Hey");
       const cell = document.createElement("div");
+      cell.classList.add("user-cell");
       cell.dataset.row = i;
       cell.dataset.col = j;
       userGridContainer.appendChild(cell);
@@ -191,6 +192,7 @@ export const generateGrid = function () {
     for (let j = 0; j < 10; j++) {
       console.log("Hey");
       const cell = document.createElement("div");
+      cell.classList.add("comp-cell");
       cell.dataset.row = i;
       cell.dataset.col = j;
       compGridContainer.appendChild(cell);
@@ -214,7 +216,6 @@ export const userGridShiplacementUI = function (coordinateArray) {
       ship.style.gridRow = `${rows[0] + 1} / ${rows[0] + 2}`;
       ship.style.gridColumn = `${sorted[0] + 1} / ${sorted[4] + 2}`;
     } else {
-      console.log("cols");
       const sorted = rows.sort();
       const ship = document.querySelector(".carrier.vertical");
       ship.classList.remove("hidden");
@@ -237,7 +238,6 @@ export const userGridShiplacementUI = function (coordinateArray) {
       ship.style.gridRow = `${rows[0] + 1} / ${rows[0] + 2}`;
       ship.style.gridColumn = `${sorted[0] + 1} / ${sorted[3] + 2}`;
     } else {
-      console.log("cols");
       const sorted = rows.sort();
       const ship = document.querySelector(".battleship.vertical");
       ship.classList.remove("hidden");
@@ -260,7 +260,6 @@ export const userGridShiplacementUI = function (coordinateArray) {
       ship.style.gridRow = `${rows[0] + 1} / ${rows[0] + 2}`;
       ship.style.gridColumn = `${sorted[0] + 1} / ${sorted[2] + 2}`;
     } else {
-      console.log("cols");
       const sorted = rows.sort();
       const ship = document.querySelector(".destroyer.vertical");
       ship.classList.remove("hidden");
@@ -285,10 +284,6 @@ export const userGridShiplacementUI = function (coordinateArray) {
       ship.style.gridRow = `${rows[0] + 1} / ${rows[0] + 2}`;
       ship.style.gridColumn = `${sorted[0] + 1} / ${sorted[2] + 2}`;
     } else {
-      console.log("cols");
-      console.log("sub");
-      console.log(cols);
-      console.log(cols[0] + 2);
       const sorted = rows.sort();
       const ship = document.querySelector(".submarine.vertical");
       ship.classList.remove("hidden");
@@ -311,9 +306,6 @@ export const userGridShiplacementUI = function (coordinateArray) {
       ship.style.gridRow = `${rows[0] + 1} / ${rows[0] + 2}`;
       ship.style.gridColumn = `${sorted[0] + 1} / ${sorted[1] + 2}`;
     } else {
-      console.log("cols");
-      console.log(cols);
-      console.log(cols[0] + 2);
       const sorted = rows.sort();
       const ship = document.querySelector(".patrol.vertical");
       ship.classList.remove("hidden");
