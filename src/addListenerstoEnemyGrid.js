@@ -45,7 +45,7 @@ export function addListenerstoEnemyGrid(computer, user) {
 
         setTimeout(
           opponentAttack,
-          0,
+          1500,
           Math.trunc(Math.random() * 10),
           Math.trunc(Math.random() * 10),
           user,
