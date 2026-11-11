@@ -27,13 +27,6 @@ This project recreates the classic Battleship experience using JavaScript, with 
 - **CSS3** – Styling and layout.
 - **Webpack** – Module bundling and development server.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js
-- npm
-
 ### Installation
 
 1. Clone the repository:
