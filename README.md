@@ -8,7 +8,7 @@ A browser-based implementation of the classic **Battleship** game, built as part
   </a>
 </p>
 
-<img width="1200" height="600" alt="Screenshot 2026-10-02 at 3 31 08 PM" src="https://github.com/user-attachments/assets/657d9d95-4fdb-47ff-b454-97ea5d90aa1f" />
+
 
 
 
@@ -20,6 +20,8 @@ A browser-based implementation of the classic **Battleship** game, built as part
 Battleship is a strategy game in which players attempt to locate and sink their opponent's fleet by guessing the positions of their ships on a grid.
 
 This project recreates the classic Battleship experience using JavaScript, with a focus on game logic, modular code organization, and DOM manipulation.
+
+<img width="1200" height="600" alt="Screenshot 2026-10-02 at 3 31 08 PM" src="https://github.com/user-attachments/assets/657d9d95-4fdb-47ff-b454-97ea5d90aa1f" />
 
 ## Features
 
