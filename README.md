@@ -1,6 +1,7 @@
 # Battleship
 
-<img width="2602" height="1542" alt="5044DB12-4164-4F07-B4C7-1FF76324AF1F" src="https://github.com/user-attachments/assets/5551922c-8e2d-4191-8eb4-8dc176ec26f9" />
+<img width="1470" height="775" alt="Screenshot 2026-10-02 at 3 31 08 PM" src="https://github.com/user-attachments/assets/657d9d95-4fdb-47ff-b454-97ea5d90aa1f" />
+
 
 
 A browser-based implementation of the classic **Battleship** game, built as part of [The Odin Project](https://www.theodinproject.com/).
