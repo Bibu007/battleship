@@ -15,20 +15,20 @@ A browser-based implementation of the classic **Battleship** game, built as part
 
 
 
-## 🎮 About the Game
+## About the Game
 
 Battleship is a strategy game in which players attempt to locate and sink their opponent's fleet by guessing the positions of their ships on a grid.
 
 This project recreates the classic Battleship experience using JavaScript, with a focus on game logic, modular code organization, and DOM manipulation.
 
-## ✨ Features
+## Features
 
 - Interactive game board.
 - Randomized ship placement.
 - Game logic for tracking hits and misses.
 - Visual feedback during gameplay.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **JavaScript (ES6+)** – Game logic and DOM manipulation.
 - **HTML5** – Game structure.
@@ -69,7 +69,7 @@ To generate a production bundle:
 npx webpack --mode production
 ```
 
-## 📚 What I Learned
+## What I Learned
 
 Building this project helped me practice:
 
@@ -80,7 +80,7 @@ Building this project helped me practice:
 - Writing and organizing reusable JavaScript modules.
 - Using Webpack to bundle JavaScript modules and assets.
 
-## 📖 Acknowledgements
+## Acknowledgements
 
 This project was built as part of [The Odin Project – JavaScript Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
 
