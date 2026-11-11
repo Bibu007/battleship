@@ -84,7 +84,4 @@ Building this project helped me practice:
 This project was built as part of [The Odin Project – JavaScript Course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
 
 
-
-Battleship game from the Odin project
-
-Dont forget to import styles in index.js
+Remember: Dont forget to import styles in index.js
