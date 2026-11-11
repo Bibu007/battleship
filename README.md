@@ -1,5 +1,7 @@
 # Battleship
 
+A browser-based implementation of the classic **Battleship** game, built as part of [The Odin Project](https://www.theodinproject.com/).
+
 <p align="center">
   <a href="https://bibu007.github.io/battleship/">
     <img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-FF4D6D?style=for-the-badge&labelColor=171717" alt="Play Now" />
@@ -11,7 +13,7 @@
 
 
 
-A browser-based implementation of the classic **Battleship** game, built as part of [The Odin Project](https://www.theodinproject.com/).
+
 
 ## 🎮 About the Game
 
