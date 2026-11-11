@@ -1,5 +1,7 @@
 # Battleship
 
+<a href="https://bibu007.github.io/battleship/">Play Now!</a>
+
 <img width="1200" height="600" alt="Screenshot 2026-10-02 at 3 31 08 PM" src="https://github.com/user-attachments/assets/657d9d95-4fdb-47ff-b454-97ea5d90aa1f" />
 
 
