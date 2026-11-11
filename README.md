@@ -1,6 +1,6 @@
 # Battleship
 
-<img width="1470" height="775" alt="Screenshot 2026-10-02 at 3 31 08 PM" src="https://github.com/user-attachments/assets/657d9d95-4fdb-47ff-b454-97ea5d90aa1f" />
+<img width="1200" height="600" alt="Screenshot 2026-10-02 at 3 31 08 PM" src="https://github.com/user-attachments/assets/657d9d95-4fdb-47ff-b454-97ea5d90aa1f" />
 
 
 
@@ -15,7 +15,6 @@ This project recreates the classic Battleship experience using JavaScript, with 
 ## ✨ Features
 
 - Interactive game board.
-- Ship placement and positioning.
 - Randomized ship placement.
 - Game logic for tracking hits and misses.
 - Visual feedback during gameplay.
